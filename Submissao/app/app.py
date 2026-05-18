@@ -5,6 +5,7 @@ from ultralytics import YOLO
 import pandas as pd
 import json
 
+
 # Configuração da página do Streamlit
 st.set_page_config(page_title="Detetor de Peças de Lego - IA", layout="wide")
 st.title("🏭 Sistema Industrial de Deteção de Peças de Lego")
