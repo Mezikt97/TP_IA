@@ -1,0 +1,20 @@
+# === Dependências e Ambientes Virtuais ===
+ia_env/
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+
+# === Pesos do YOLOv8 (Ficheiros base descarregados automaticamente) ===
+yolov8n.pt
+yolov8s.pt
+
+# === Resultados Locais de Treino (Opcional, para não entupir o Git) ===
+runs/
+
+# === Dataset (manter só metadata) ===
+# Tudo dentro de datasets fica ignorado, exceto os ficheiros abaixo.
+datasets/*
+!datasets/data.yaml
+!datasets/README.roboflow.txt
